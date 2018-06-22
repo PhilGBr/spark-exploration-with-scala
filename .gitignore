@@ -1,0 +1,42 @@
+# Compiled class file, target repos, ...
+*.class
+target/
+project/target/
+project/project/target
+bin/
+build/*.jar
+
+# Log file
+*.log
+
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.scala_dependencies
+
+
+# Spark & related
+metastore_db
+
+# Tests
+build.sbt_back
+.cache-*
+
+# sbt specific
+dist/*
+target/
+sbt/*.jar
+
+
+
+
+
+
+
+
+
+
